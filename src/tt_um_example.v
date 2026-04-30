@@ -11,7 +11,7 @@
 // - uio_in[7:0] = y (8-bit input)
 // - uo_out[7:0] = result (8-bit output)
 // - uio_oe = 0 (uio used as inputs)
-module tt_um_example (
+module tt_um_eml_stack_machine (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
     input  wire [7:0] uio_in,
